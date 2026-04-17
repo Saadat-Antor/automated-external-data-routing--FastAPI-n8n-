@@ -38,8 +38,7 @@ This system was engineered to solve the bottleneck of manual data entry and sche
 For technical auditing, please review the following core structural files:
 
 * `schemas.py` - Demonstrates strict data validation and type-checking using Pydantic, proving the system's resilience against malformed external data.
-* `main.py` *(or your core routing file)* - Showcases the asynchronous FastAPI endpoints designed to receive and process the n8n payloads efficiently.
-* `n8n-workflow-export.json` - The raw JSON export of the orchestration pipeline, demonstrating complex node-based logic, batching, and API interactions.
+* `main.py`  - Showcases the asynchronous FastAPI endpoints designed to receive and process the n8n payloads efficiently.
 
 ---
 
